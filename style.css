@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(
+    to right,
+    #3ab5b0 0%,
+    #3d99be 31%,
+    #56317a 100%
+  );
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+}
+h1,
+p {
+  text-align: center;
+}
+
+p {
+  opacity: 0.7;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(12, 125, 231);
+  color: white;
+  margin: 10px 0;
+ 
+}
